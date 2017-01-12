@@ -1,9 +1,17 @@
 {
+    "project_type": "javascript",
 
-    "debugMode" : 0,
-    "showFPS" : false,
-    "frameRate" : 60,
-    "id" : "gameCanvas",
-    "renderMode"    : 0,
-    "jsList"        : []
+    "debugMode": 0,
+    "showFPS": false,
+    "frameRate": 60,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "",
+    "modules": ["cocos2d", "external","chipmunk"],
+
+    "jsList": [
+        "src/resource.js",
+        "src/yazirusi.js",
+
+    ]
 }
