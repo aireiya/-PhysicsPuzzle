@@ -59,7 +59,7 @@ var gameLayer = cc.Layer.extend({
 
 //プレイヤー生成
     player = cc.Sprite.create(res.player01);
-    player.setPosition(size.width / 2, size.height / 2);
+    //player.setPosition(size.width / 2, size.height / 2);
     this.addChild(player, 1);
 
 
