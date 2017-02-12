@@ -7,11 +7,23 @@
     "id": "gameCanvas",
     "renderMode": 0,
     "engineDir": "",
-    "modules": ["cocos2d", "external","chipmunk"],
+    "modules": ["cocos2d", "external"],
 
     "jsList": [
         "src/resource.js",
-        "src/yazirusi.js",
+        "src/player.js",
+        "src/terrain.js",
+        "src/objects.js",
+        "src/scroll_bg.js",
+        "src/tiledmap.js",
+        "src/app.js",
 
+        "src/monster1.js",
+        "src/monster2.js",
+        "src/lose.js",
+        "src/win.js",
+        "src/lose.js",
+        "src/title.js",
+        "src/select.js"
     ]
 }
